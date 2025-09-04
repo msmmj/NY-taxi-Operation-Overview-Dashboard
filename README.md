@@ -21,7 +21,7 @@ The project showcases data ingestion using Microsoft Fabric Lakehouse, data clea
 10. [Author](#author)
 
 ---
-
+YouTube Link: https://youtu.be/MpHMEV7gpwI
 ## Project Overview
 
 The goal of this project is to analyze NY taxi ride data and provide insights through interactive dashboards.
