@@ -71,7 +71,7 @@ The EDA notebook (`EDA.ipynb`) includes:
 
 ## Power BI Dashboard
 
-The dashboard (`NY_taxi_dashboard.pbix`) includes:
+The dashboard (`dashboard.pbix`) includes:
 
 - **KPI Cards:** average fare, total fare. average trip duration
 - **Currency & formatting:** Revenue displayed in $
