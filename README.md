@@ -6,7 +6,7 @@ This repository contains a comprehensive EDA notebook and Power BI dashboard for
 The project showcases data ingestion using Microsoft Fabric Lakehouse, data cleaning, transformation, and interactive visualizations.
 
 ---
-
+![Dashboard](./dashboard.png)
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -40,12 +40,6 @@ The data comes from Microsoft Fabric Lakehouse:
 
 - **Table:** `taxi_rides`
 - **Source:** Fabric OneLake
-- **Columns include:**
-  - `lpepPickupDatetime`, `lpepDropoffDatetime`
-  - `tripDistance`, `fareAmount`, `tipAmount`
-  - `puLocationId`, `doLocationId`
-  - `tripDurationMinutes`
-
 ---
 
 ## Technologies Used
@@ -68,7 +62,7 @@ The data comes from Microsoft Fabric Lakehouse:
 
 ## Exploratory Data Analysis
 
-The EDA notebook (`NY_taxi_EDA.ipynb`) includes:
+The EDA notebook (`EDA.ipynb`) includes:
 
 - Distribution of trip distances and durations
 - Correlation analysis between fare, distance, and duration
@@ -79,30 +73,11 @@ The EDA notebook (`NY_taxi_EDA.ipynb`) includes:
 
 The dashboard (`NY_taxi_dashboard.pbix`) includes:
 
-- **KPI Cards:** Total trips, total revenue, average fare, average trip distance/duration
-- **Heatmaps:** Pickup and drop-off hotspots
-- **Trends & Filters:** Daily/weekly/monthly trends, filter by location or time
+- **KPI Cards:** average fare, total fare. average trip duration
 - **Currency & formatting:** Revenue displayed in $
 
 ---
 
-## Screenshots
-
-**KPI Cards Example:**
-
-![KPI Cards](screenshots/kpi_cards.png)
-
-**Pickup Heatmap Example:**
-
-![Pickup Heatmap](screenshots/pickup_heatmap.png)
-
-**Drop-off Heatmap Example:**
-
-![Dropoff Heatmap](screenshots/dropoff_heatmap.png)
-
-> Make sure your screenshots are stored in a folder named `screenshots` in your repo.
-
----
 
 ## Getting Started
 
